@@ -1,5 +1,11 @@
 {
   "dependencies": {
-    "gitbook-cli": "^2.3.2"
+    "gitbook-plugin-edit-link": "^2.0.2",
+    "gitbook-plugin-hints": "^1.0.2",
+    "gitbook-plugin-localized-footer": "^0.3.1",
+    "gitbook-plugin-page-toc": "^1.1.1",
+    "gitbook-plugin-toggle-chapters": "^0.0.3",
+    "gitbook-plugin-versions": "^2.1.4",
+    "honkit": "^3.0.0"
   }
 }

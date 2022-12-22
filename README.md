@@ -17,8 +17,7 @@ You need [yarn](https://www.yarnpkg.com/en/docs/install).
 
 ```
 yarn install
-yarn gitbook install
-yarn gitbook serve
+yarn honkit serve
 ```
 
 At the end, you should see :

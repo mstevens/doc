@@ -141,7 +141,7 @@ ajouter cette ligne dans votre configuration nginx
 
 Éditez votre fichier `lighttpd.conf` collez-y cette configuration :
 
-```lighttpd
+```text
 server.modules = (
     "mod_fastcgi",
     "mod_access",
@@ -179,7 +179,7 @@ url.rewrite-if-not-file = (
 
 Voici un caddyfile pour wallabag :
 
-```caddy
+```text
 domain.tld {
   root /var/www/wallabag/web
   fastcgi / /var/run/php7-fpm.sock php {

@@ -172,7 +172,7 @@ line in your nginx configuration
 
 Edit your `lighttpd.conf` file and paste this configuration into it:
 
-```lighttpd
+```text
 server.modules = (
     "mod_fastcgi",
     "mod_access",
@@ -211,7 +211,7 @@ url.rewrite-if-not-file = (
 
 The following configuration works on caddy 2 (tested on 2.3.0):
 
-```caddy
+```text
 domain.tld {
   root * /var/www/wallabag/web
   file_server
@@ -230,7 +230,7 @@ domain.tld {
 
 For caddy server, configuration might be:
 
-```caddy
+```text
 domain.tld {
   root /var/www/wallabag/web
   fastcgi / /var/run/php7-fpm.sock php {

@@ -130,7 +130,7 @@ Presumendo che abbiate installato wallabag nella cartella
 /var/www/wallabag, ecco una ricetta per l’applicazione (modificate il
 vostro file `lighttpd.conf` e incollatevi questa configurazione):
 
-```lighttpd
+```text
 server.modules = (
     "mod_fastcgi",
     "mod_access",

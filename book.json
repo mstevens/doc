@@ -2,11 +2,11 @@
     "plugins": [
         "edit-link",
         "toggle-chapters",
-        "page-toc",
         "-sharing",
         "versions",
         "hints",
-        "localized-footer"
+        "localized-footer",
+        "page-toc"
     ],
     "pluginsConfig": {
         "edit-link": {
@@ -25,5 +25,6 @@
             "hline": true,
             "filename": "../FOOTER.md"
         }
-    }
+    },
+    "honkit" : "^3.0.0"
 }
